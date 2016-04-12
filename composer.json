@@ -1,0 +1,19 @@
+{
+    "name": "ntbti/eit-company-api-client",
+    "description": "Client to connect to the EAIT company API",
+    "authors": [
+        {
+            "name": "Tom Laws",
+            "email": "tom@ntbti.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^5.3",
+        "mustache/mustache": "^2.10"
+    },
+    "autoload": {
+        "psr-0": {
+            "EITAPIClient":"src/"
+        }
+    }
+}
